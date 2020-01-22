@@ -1,0 +1,12 @@
+Prime Numbers and Zeta Hisotry
+
+Concrete: History of Zeta function
+Abstract: How the prime numbers show up with zeta functions
+Kernel: Using the series to compute the terms
+
+First, infinite primes
+Next, reciprical sums
+Next, proper convergence and congruence subgroups
+Next, complex functions
+Next, analytic continuation
+Relate to generating functions
