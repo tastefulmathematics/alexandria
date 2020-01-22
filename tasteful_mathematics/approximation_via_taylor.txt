@@ -1,0 +1,9 @@
+Concrete: Understanding special relativity
+Abstract: Taylor polynomials and precision
+Kernel: 
+
+Formulae for special relativity
+Simpler physics formula
+Basics on Taylor formula
+Idea of derivative from taylor formula
+Analyze formulae with Taylor 

@@ -1,0 +1,12 @@
+Elliptic Curve Computation
+
+Concrete: Rational area triangles
+Abstract: Elliptic curves as abelian groups
+Kernel: Addition in the group to compute things
+
+Basic problem description
+Some basic examples and counter examples
+The elliptic curve of note
+How addition on elliptic curves looks
+Explicitly compute points on elliptic curves
+Explain the connection to Birch Swinnerton dyer

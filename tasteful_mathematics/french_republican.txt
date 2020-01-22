@@ -1,0 +1,12 @@
+Concrete: What is a Galois group of a specific polynomial
+Abstract: What is a Galois group
+Kernel: 
+
+Brief comments on the man
+Reintroduce a quintic polynomial
+Contrast with Abel Ruffini
+Develop a Galois group
+Develop a solvable subgroup
+Main theorem of Galois group
+Additional observations: why 2, 3, 4 work.  Etc
+General Galois approach

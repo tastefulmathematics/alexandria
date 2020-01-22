@@ -1,0 +1,10 @@
+Concrete: Sending a message without error
+Abstract: ECC
+Kernel: Math solving a basic problem
+
+Present problem
+Naive repeating
+Demonstrate a more modern code
+Motivate Noisy Coding Theorem
+Epilogue about data compression
+

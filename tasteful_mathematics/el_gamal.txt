@@ -1,0 +1,11 @@
+Concrete: Encryption
+Abstract: Drop in replacements for encryption
+Kernel: It doesnt matter what tool is used
+
+Basic encryption concerns.
+Brief explanation to older methods
+Schematic with boxes and locks
+Finite logarithm as a trapdoor function
+Diffie helman and elgamal
+Cursory overview of RSA and ECC
+Https discovery
