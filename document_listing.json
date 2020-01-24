@@ -1,1 +1,46 @@
-{}
+[
+  {
+    "a_project": "tasteful_mathematics",
+    "a_key": "equivalence_relations",
+    "name": "Equivalence Relations and Group Actions",
+    "summary": null,
+    "description": null,
+    "state": "development",
+    "story_elements": {
+      "kernel": "",
+      "concrete": "",
+      "abstract": ""
+    },
+    "design_elements": {
+      "energy": false,
+      "abundance": false,
+      "freedom": false,
+      "harmony": false,
+      "play": false,
+      "surprise": false,
+      "transcendence": false,
+      "magic": false,
+      "celebration": false,
+      "renewal": false
+    },
+    "colors": [],
+    "timeline": {
+      "draft_start": null,
+      "draft_end": null,
+      "writing_start": null,
+      "writing_end": null,
+      "design_start": null,
+      "design_end": null,
+      "draw_start": null,
+      "draw_end": null,
+      "animate_start": null,
+      "animate_end": null,
+      "publish_start": null,
+      "publish_end": null,
+      "qa": null
+    },
+    "a_created_by": "britain",
+    "a_created_ts": "2020-01-24 02:03:28.741207",
+    "a_id": 1
+  }
+]
