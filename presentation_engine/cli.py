@@ -36,4 +36,4 @@ if __name__ == '__main__':
     if command:
         command["method"](args)
     else:
-        print(f"[{args.command}] is not a valid command.")
+        print("[{command}] is not a valid command.".format(command=args.command))

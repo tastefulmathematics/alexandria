@@ -7,7 +7,7 @@ logger = facade.get_logger(__name__)
 
 
 def create_project_document(project, key, name, user):
-    logger.info(f"Creating project for [{key}]")
+    logger.info("Creating project for [{key}]".format(key=key))
 
     document_record = create_document_record(project, key, name, user)
     facade.store_document(document_record)
@@ -15,7 +15,7 @@ def create_project_document(project, key, name, user):
     create_draft_template(key)
     create_document_template(key)
 
-    logger.info(f"Project created for [{key}]")
+    logger.info("Project created for [{key}]".format(key=key))
 
 
 def create_draft_template(document_key):
@@ -26,14 +26,14 @@ def create_draft_template(document_key):
                "Outline-----\n" \
                "\n" \
                "Draft-----\n"
-    file_name = f"{document_key}.txt"
+    file_name = "{document_key}.txt".format(document_key=document_key)
     path = os.path.join(facade.ROOT, "drafts", file_name)
     with open(path, "w") as datafile:
         datafile.write(template)
 
 
 def create_document_template(document_key):
-    file_name = f"{document_key}.html"
+    file_name = "{document_key}.html".format(document_key=document_key)
     path = os.path.join(facade.ROOT, "documents", file_name)
     with open(path, "w") as datafile:
         datafile.write("<div></div>")
