@@ -1,7 +1,15 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Unit Testing
+- Lightweight
+- Mocking/Patching
+
+### Implementation Testing
+- Minimum number of tests
+- Division of labor
+- Fixtures and factories
 
 Draft-----

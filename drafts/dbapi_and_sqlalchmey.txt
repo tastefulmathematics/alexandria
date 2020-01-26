@@ -1,7 +1,13 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### DBAPI and SQLAlchemy
+- Concepts of DBAPI
+- Python packages for each DB
+- SQLAlchemy
+- Simplify CRUD queries
+- Asides for reflection and alembic
 
 Draft-----

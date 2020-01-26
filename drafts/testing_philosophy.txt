@@ -1,7 +1,12 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete: Is the code working?
+Abstract: How to feel confident with code.
+Kernel: Well organized code is easy to test.
 
 Outline-----
+Testing anectdote
+People over process
+skill, tactics, strategy, logistics
+unit, functional, integrated, end 2 end
+each test for a branch logic
 
 Draft-----

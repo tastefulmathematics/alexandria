@@ -1,7 +1,11 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Outline GUI
+- Specific tool rather than general GUI
+- Expand options for Extract
+- Use SQLite to store results
 
 Draft-----

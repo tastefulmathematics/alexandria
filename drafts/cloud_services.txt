@@ -1,7 +1,22 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### S3
+- No more local Files
+- Python package to interact with S3
+- Add to GUI
+
+### SQS and message infrastructure
+- The idea of message based systems
+- Build a queue from PG and Redis
+- Discuss cloud options
+
+### Lambdas
+- Server compute
+- Serverless compute
+- Considerations for both
+- A comment on scale
 
 Draft-----

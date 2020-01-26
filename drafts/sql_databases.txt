@@ -1,7 +1,15 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### SQL databases
+- filter clauses
+- CRUD operations
+- joins
+- constraints and indexing
+- query planner
+- views
+- other queries
 
 Draft-----

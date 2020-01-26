@@ -1,7 +1,13 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete: Guess Who
+Abstract: Using dedicated strategies rather than programmatic
+Kernel: Simpler to maintain dedicated algorithms
 
 Outline-----
+Guess Who as a decision algorithm of discrete choices
+Limitations of such a decision algorithms
+Alternate of dedicated strategies for each possibility
+Downside of such an approach
+Ease of maintenance and testing
+
 
 Draft-----

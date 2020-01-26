@@ -1,7 +1,10 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Separate extract and Transform
+- Add databases to the option for Extract
+- Add databases to the option for Load
 
 Draft-----

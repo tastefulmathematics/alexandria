@@ -1,7 +1,15 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### JavaScript/HTML/CSS
+- syntax
+- basic data types
+- loops
+- NodeJs
+- imports
+- objects
+- Walk through chrome
 
 Draft-----

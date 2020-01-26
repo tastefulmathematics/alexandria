@@ -1,7 +1,12 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Docker
+- Idea of virtualization
+- Schematic of Docker
+- Vanilla docker containers
+- Use cases for docker
 
 Draft-----

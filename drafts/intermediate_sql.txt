@@ -1,7 +1,10 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Elaborate databases: uniqueness, indexing, and all that
+- improve Load with uniqueness
+- improve Load with compact
 
 Draft-----

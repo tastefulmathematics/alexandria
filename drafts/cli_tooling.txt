@@ -1,7 +1,10 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+- Creating CLIs
+- Adding to airflow
+- Running ad hoc
 
 Draft-----

@@ -1,7 +1,36 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Open Files: CSV
+- Most primitive version of ETL
+- Structure of CSV
+- CSV package
+- Print to screen
+
+### Transform strings
+- Upper/Lower
+- Split
+- Coalesce
+- Regular expressions
+### Transform datetime
+- String to datetime to string
+- Parse and isoformat
+- timezones
+- timedelta (age)
+- datetime object
+
+### Transform hashes
+- Notion of a hash
+- warn about hash builtin
+- ordering keys
+- hashing values
+- potential for hash versions
+
+### Print data: json and yaml
+- Attempt to print structured data
+- JSON formatting
+- YAML formatting
 
 Draft-----

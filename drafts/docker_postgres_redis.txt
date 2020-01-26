@@ -1,7 +1,13 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Docker, PostGreSQL and Redis
+- Install Docker, PostGreSQL and Redis
+- Simple test of PG
+- Simple test of Redis
+- Switch out SQLite for PG and Redis
+- Add to GUI
 
 Draft-----

@@ -1,7 +1,10 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Database basics: SQLite, create table
+- create table
+- test table with insert/select/update/delete (CRUD)
 
 Draft-----

@@ -1,7 +1,10 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
-
+### Outline Dashboard
+- Components for specific purpose
+- Toggle components open/closed
+- Transition to tiles and back again
 Draft-----

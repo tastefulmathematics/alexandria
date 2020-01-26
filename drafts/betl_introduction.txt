@@ -1,0 +1,16 @@
+Concrete: Simplify
+Abstract: Simplify
+Kernel: Simplify
+
+Outline-----
+What this is not
+ - Not a python tutorial
+ - Not a comprehensive ETL solution
+Goals
+ - Minimize external products
+ - Progression of modular design
+ - Modicum of practicality
+Technologies
+ - SQLite, Python, Vue, Bulma
+ - Focus on general approaches
+Draft-----

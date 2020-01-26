@@ -1,7 +1,12 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Git
+- Idea of version control
+- Schematic of Git
+- Basic git commands
+- Remote aspects of Git
 
 Draft-----

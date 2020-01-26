@@ -1,7 +1,13 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
-
+### Python
+- syntax
+- basic data types
+- loops
+- main
+- imports
+- objects
 Draft-----

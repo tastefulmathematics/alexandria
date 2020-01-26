@@ -1,7 +1,14 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Text editors and IDEs
+- Basic with nano
+- Syntax highlighting with Atom
+- Code completion with PyCharm
+- Code execution with PyCharm
+- Debugging with PyCharm
+- Debugging with Chrome
 
 Draft-----

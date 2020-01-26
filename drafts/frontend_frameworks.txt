@@ -1,7 +1,12 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+### Frameworks: Bulma and Vuejs
+- Bulma tiles and flexbox
+- Vuejs conditional rendering
+- Vuejs State
+- Vue developer tools
 
 Draft-----
