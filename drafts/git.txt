@@ -1,6 +1,6 @@
-Concrete:
-Abstract:
-Kernel:
+Concrete: Git is stupid
+Abstract: Compound actions on a simple premise
+Kernel: Keeping versions
 
 Outline-----
 ### Git
