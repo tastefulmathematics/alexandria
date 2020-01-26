@@ -1,7 +1,15 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
 
 Draft-----
+The first step is to alter the problem we are investigating.  Rather than consider a,b,c which satisfy the equation, we instead look at the polynomial equation.  This is what is known as an elliptic curve.  The connection to Fermats last theorem comes from the following observation:  suppose a,b,c are intergers which satisfy fermats equation for some p>0.  Then the elliptic curves L function is ramified at only two primes: 2, and p.
+At this stage, we pause to acknowledge that we have not defined any of these terms.  It is unlikely the viewer knows what an elliptic curve is; it is even less likely that the viewer is familiar with an L function of an elliptic curve, much less what it means to be ramified.  In fact, the only term in this statement that has any familiarity is prime.  Given the complete lack of context, it probably isnt reasonable to believe in this either.
+Technical definitions can come later.  For now, we can think of this statement as follows: if there is a counter example to Fermats equation, then there exists a thing (elliptic curve) which has a property (the L-function is ramified at 2 places).
+Next, we consider the statement: all elliptic curves are modulear.  As noted prior, we have not defined what an elliptic curve is.  But now, we are introducing a somewhat more impressive ter, modular curve and saying they are the same thing.  Lovely.
+Our final statement: the L function of a modular curve cannot be ramified at 2 primes.  This is where things slow down.  None of the important terms have been defined, but at there are no new ters to consider.
+Taking the three statements together, the logic is evident.  If we have a counter example to Fermats equation, then we have a thing of type A with a property.  But everything of type A is also of type B.  And every thing of type B cannot have this property.  The supposed counter example produces a contradiction and cannot exist.
+Before diving deeper into this outline, here are some interesting historical notes.  The above argument was outlined by _, following _.  The second statement was initially conjectured by T and S in 1957, and then rediscovered by W in .  The eariler work noticed that it should be possible to demonstrate the 3rd statement, then reducing Fermats Last Theorem to the proof of the well established TS.  In response to this observation, Serre established bulk of the 3rd statement, with Ribbet proving the remainder.  After this result, W resolved to complete the proof.  He proceeded to work on the problem alone for 7 years, completing the proof in 1994.
+From the history, it should be abundantly clear that this outline has passed over a tremendous amount of mathematics.  This is by choice; this video is meant to serve as an introduction to future work defining and investigating all these topics that were so casually abstracted away.  Beyond ambitions

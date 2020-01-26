@@ -1,7 +1,17 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+Concrete: Efficiently go over all transforms
+Abstract:  All cool things are the same
+Kernel: Group theory is fun
+
+Enumerate some fourier transforms
+Explain representation theory of groups
+Compute fourier transform
+Compute Laplace transform
+Compute some esoteric transforms
+
 
 Draft-----

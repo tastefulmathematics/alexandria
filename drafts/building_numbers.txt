@@ -1,7 +1,17 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+Relate how people dislike imaginary numbers
+Comment on philosophy of natural numbers
+Create integers
+Create rational numbers
+Prove basic properties
+Create algebraic numbers
+Create real numbers
+Create p-adic numbers
+Create hyperreal numbers
+
 
 Draft-----

@@ -1,7 +1,12 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
-
+Introduce the problem
+Quadratic formula and cubic formula and quartic formula
+Field theory
+Field automorphisms
+Discriminant
+Analyze Formulae
 Draft-----
