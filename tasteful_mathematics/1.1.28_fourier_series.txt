@@ -1,8 +1,0 @@
-Sample array of fourier transforms
-Recall definition of group
-Define a representation
-Recall basic linear algebra
-Example of S3
-Function space description 
-Peter Weyl Theorem
-Revisit fourie transforms

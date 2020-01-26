@@ -1,6 +1,0 @@
-Recall polynomials
-Recall fundamental theorem of algebra
-Demonstrate odd polynomials
-Use Galois theory for even polynomials
-Recall Jordan Curve
-Prove geometrically

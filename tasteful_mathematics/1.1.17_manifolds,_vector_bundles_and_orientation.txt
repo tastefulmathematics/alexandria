@@ -1,5 +1,0 @@
-Definition of a topological manifold 
-Example of an atlas with the sphere
-The normal bundle and orientation.  
-The mobius band and an unoriented manifold
-Vector bundles, differential manifolds, and metrics

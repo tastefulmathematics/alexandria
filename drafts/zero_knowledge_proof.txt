@@ -1,3 +1,8 @@
+Concrete:
+Abstract:
+Kernel:
+
+Outline-----
 Concrete: Use a zero knowledge proof in practice
 Abstract: Complexity theory in action
 Kernel: You can see things you do not understand
@@ -8,3 +13,5 @@ Motivate complexity theory
 Motivate the difficulty of the two problems
 Execute on the concrete problem
 More practical uses
+
+Draft-----

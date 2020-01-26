@@ -40,6 +40,8 @@ def create_document_template(document_key):
 
 
 def create_document_record(project, key, name, user):
+    if project not in facade.project_list():
+        raise Exception("[{}] is not a project".format(project))
     template = {
         "a_project": project,
         "a_key": key,

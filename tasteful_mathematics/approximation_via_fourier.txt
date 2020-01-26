@@ -1,9 +1,0 @@
-Concrete: MP3
-Abstract: Lossy compression
-Kernel: 
-
-Lossy vs lossless compression
-Naive lossy compression
-Audio and MP3
-Pictures and JPEG
-

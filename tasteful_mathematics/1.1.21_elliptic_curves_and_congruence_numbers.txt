@@ -1,6 +1,0 @@
-Introduce the concept of congruence numbers
-Introduce an elliptic curve
-Discuss addition of elliptic curve points
-Generate additional congruence numbers
-Discus the finite generation and finite part
-BSD

@@ -13,11 +13,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -31,7 +31,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "equivalence_relations", 
     "a_id": 1, 
     "a_created_ts": "2020-01-24 02:03:28.741207", 
@@ -57,11 +57,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -75,7 +75,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "building_numbers", 
     "a_id": 2, 
     "a_created_ts": "2020-01-24 08:07:37.127496", 
@@ -101,11 +101,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -119,7 +119,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "basic_group_actions", 
     "a_id": 3, 
     "a_created_ts": "2020-01-24 08:08:01.436704", 
@@ -145,11 +145,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -163,7 +163,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "liouville_number", 
     "a_id": 4, 
     "a_created_ts": "2020-01-24 08:08:31.677411", 
@@ -189,11 +189,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -207,7 +207,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "generating_functions", 
     "a_id": 5, 
     "a_created_ts": "2020-01-24 08:08:54.066854", 
@@ -233,11 +233,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -251,7 +251,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "zeta_functions", 
     "a_id": 6, 
     "a_created_ts": "2020-01-24 08:09:59.791018", 
@@ -277,11 +277,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -295,7 +295,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "ramsey_theory", 
     "a_id": 7, 
     "a_created_ts": "2020-01-24 08:10:17.376880", 
@@ -321,11 +321,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -339,7 +339,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "winding_numbers", 
     "a_id": 8, 
     "a_created_ts": "2020-01-24 08:10:45.347397", 
@@ -365,11 +365,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -383,7 +383,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "epsilon_delta", 
     "a_id": 9, 
     "a_created_ts": "2020-01-24 08:11:05.962237", 
@@ -409,11 +409,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -427,7 +427,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "poyla_theory", 
     "a_id": 10, 
     "a_created_ts": "2020-01-24 08:11:34.341378", 
@@ -453,11 +453,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -471,7 +471,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "sumset_productset", 
     "a_id": 11, 
     "a_created_ts": "2020-01-24 08:13:32.417785", 
@@ -497,11 +497,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -515,7 +515,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "planar_graphs", 
     "a_id": 12, 
     "a_created_ts": "2020-01-24 08:13:54.665178", 
@@ -541,11 +541,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -559,7 +559,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "manifolds_vector_bundles_orientation", 
     "a_id": 13, 
     "a_created_ts": "2020-01-24 08:14:40.608836", 
@@ -585,11 +585,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -603,7 +603,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "fundamental_groups", 
     "a_id": 14, 
     "a_created_ts": "2020-01-24 08:15:10.209680", 
@@ -629,11 +629,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -647,7 +647,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "invariance_of_domain", 
     "a_id": 15, 
     "a_created_ts": "2020-01-24 08:15:49.022433", 
@@ -673,11 +673,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -691,7 +691,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "non_euclidean_geometry", 
     "a_id": 16, 
     "a_created_ts": "2020-01-24 08:16:22.615026", 
@@ -717,11 +717,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -735,7 +735,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "elliptic_curves_and_congruence_numbers", 
     "a_id": 17, 
     "a_created_ts": "2020-01-24 08:16:55.931179", 
@@ -761,11 +761,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -779,7 +779,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "stokes_theorem", 
     "a_id": 18, 
     "a_created_ts": "2020-01-24 08:17:26.642826", 
@@ -805,11 +805,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -823,7 +823,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "hensels_lemma", 
     "a_id": 19, 
     "a_created_ts": "2020-01-24 08:17:59.092909", 
@@ -849,11 +849,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -867,7 +867,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "fundamental_theorem_of_algebra", 
     "a_id": 20, 
     "a_created_ts": "2020-01-24 08:18:38.616986", 
@@ -893,11 +893,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -911,7 +911,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "fourier_series", 
     "a_id": 21, 
     "a_created_ts": "2020-01-24 08:19:00.243242", 
@@ -937,11 +937,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -955,7 +955,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "cardano_formula", 
     "a_id": 22, 
     "a_created_ts": "2020-01-24 08:19:28.507003", 
@@ -981,11 +981,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -999,7 +999,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "quadratic_reciprocity", 
     "a_id": 23, 
     "a_created_ts": "2020-01-24 08:19:50.143651", 
@@ -1025,11 +1025,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1043,7 +1043,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "fermats_last_theorem", 
     "a_id": 24, 
     "a_created_ts": "2020-01-24 08:20:42.058713", 
@@ -1069,11 +1069,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1087,7 +1087,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "computing_pi_primes", 
     "a_id": 25, 
     "a_created_ts": "2020-01-24 08:21:19.342797", 
@@ -1113,11 +1113,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1131,7 +1131,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "computing_pi_fundamental_groups", 
     "a_id": 26, 
     "a_created_ts": "2020-01-24 08:21:55.144683", 
@@ -1157,11 +1157,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1175,7 +1175,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "computing_pi_circles", 
     "a_id": 27, 
     "a_created_ts": "2020-01-24 08:22:21.090000", 
@@ -1201,11 +1201,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1219,7 +1219,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "data_compression", 
     "a_id": 28, 
     "a_created_ts": "2020-01-25 00:58:44.915198", 
@@ -1245,11 +1245,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1263,7 +1263,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "database_structures", 
     "a_id": 29, 
     "a_created_ts": "2020-01-25 00:59:12.590640", 
@@ -1289,11 +1289,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1307,7 +1307,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "discrete_fourier_transform", 
     "a_id": 30, 
     "a_created_ts": "2020-01-25 00:59:35.541927", 
@@ -1333,11 +1333,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1351,7 +1351,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "error_correcting_codes", 
     "a_id": 31, 
     "a_created_ts": "2020-01-25 00:59:55.867708", 
@@ -1377,11 +1377,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1395,7 +1395,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "hash_maps", 
     "a_id": 32, 
     "a_created_ts": "2020-01-25 01:00:12.757704", 
@@ -1421,11 +1421,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1439,7 +1439,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "https", 
     "a_id": 33, 
     "a_created_ts": "2020-01-25 01:00:25.195089", 
@@ -1465,11 +1465,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1483,7 +1483,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "metropolis_hastings", 
     "a_id": 34, 
     "a_created_ts": "2020-01-25 01:00:43.258366", 
@@ -1509,11 +1509,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1527,7 +1527,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "public_key_cryptography", 
     "a_id": 35, 
     "a_created_ts": "2020-01-25 01:01:05.495481", 
@@ -1553,11 +1553,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1571,7 +1571,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "search_algorithms", 
     "a_id": 36, 
     "a_created_ts": "2020-01-25 01:01:24.358873", 
@@ -1597,11 +1597,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1615,7 +1615,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "sorting_algorithms", 
     "a_id": 37, 
     "a_created_ts": "2020-01-25 01:01:41.849739", 
@@ -1641,11 +1641,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1659,7 +1659,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "python", 
     "a_id": 38, 
     "a_created_ts": "2020-01-25 20:14:44.855658", 
@@ -1685,11 +1685,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1703,7 +1703,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "sql_databases", 
     "a_id": 39, 
     "a_created_ts": "2020-01-25 20:15:06.244737", 
@@ -1729,11 +1729,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1747,7 +1747,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "w3_standards", 
     "a_id": 40, 
     "a_created_ts": "2020-01-25 20:15:37.478772", 
@@ -1773,11 +1773,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1791,7 +1791,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "editors_and_ides", 
     "a_id": 41, 
     "a_created_ts": "2020-01-25 20:16:21.413806", 
@@ -1817,11 +1817,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1835,7 +1835,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "git", 
     "a_id": 42, 
     "a_created_ts": "2020-01-25 20:16:38.867720", 
@@ -1861,11 +1861,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1879,7 +1879,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "docker", 
     "a_id": 43, 
     "a_created_ts": "2020-01-25 20:16:57.961070", 
@@ -1905,11 +1905,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1923,7 +1923,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "primitive_etl", 
     "a_id": 44, 
     "a_created_ts": "2020-01-25 20:17:31.633049", 
@@ -1949,11 +1949,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -1967,7 +1967,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "introductory_sql", 
     "a_id": 45, 
     "a_created_ts": "2020-01-25 20:18:24.744324", 
@@ -1993,11 +1993,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2011,7 +2011,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "dbapi_and_sqlalchmey", 
     "a_id": 46, 
     "a_created_ts": "2020-01-25 20:18:55.002613", 
@@ -2037,11 +2037,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2055,7 +2055,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "intermediate_sql", 
     "a_id": 47, 
     "a_created_ts": "2020-01-25 20:20:05.812248", 
@@ -2081,11 +2081,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2099,7 +2099,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "frontend_frameworks", 
     "a_id": 48, 
     "a_created_ts": "2020-01-25 20:20:37.861767", 
@@ -2125,11 +2125,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2143,7 +2143,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "etl_gui", 
     "a_id": 49, 
     "a_created_ts": "2020-01-25 20:21:07.797113", 
@@ -2169,11 +2169,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2187,7 +2187,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "etl_dashboard", 
     "a_id": 50, 
     "a_created_ts": "2020-01-25 20:21:37.023262", 
@@ -2213,11 +2213,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2231,7 +2231,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "docker_postgres_redis", 
     "a_id": 51, 
     "a_created_ts": "2020-01-25 20:22:44.337362", 
@@ -2257,11 +2257,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2275,7 +2275,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "cloud_services", 
     "a_id": 52, 
     "a_created_ts": "2020-01-25 20:23:36.799052", 
@@ -2301,11 +2301,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2319,7 +2319,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "message_queue", 
     "a_id": 53, 
     "a_created_ts": "2020-01-25 20:23:59.274013", 
@@ -2345,11 +2345,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2363,7 +2363,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "strategy_pattern", 
     "a_id": 54, 
     "a_created_ts": "2020-01-25 20:24:17.062123", 
@@ -2389,11 +2389,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2407,7 +2407,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "testing_philosophy", 
     "a_id": 55, 
     "a_created_ts": "2020-01-25 20:24:56.339366", 
@@ -2433,11 +2433,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2451,7 +2451,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "betl_testing", 
     "a_id": 56, 
     "a_created_ts": "2020-01-25 20:25:30.839387", 
@@ -2477,11 +2477,11 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
     }, 
-    "colors": [], 
+    "state": "development", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2495,7 +2495,7 @@
       "surprise": false, 
       "celebration": false
     }, 
-    "state": "development", 
+    "colors": [], 
     "a_key": "cli_tooling", 
     "a_id": 57, 
     "a_created_ts": "2020-01-25 20:26:14.762798", 
@@ -2521,9 +2521,97 @@
       "design_end": null, 
       "draft_start": null, 
       "draw_end": null, 
-      "writing_end": null, 
+      "draw_start": null, 
       "writing_start": null, 
-      "draw_start": null
+      "writing_end": null
+    }, 
+    "state": "development", 
+    "summary": null, 
+    "design_elements": {
+      "abundance": false, 
+      "play": false, 
+      "magic": false, 
+      "renewal": false, 
+      "freedom": false, 
+      "energy": false, 
+      "transcendence": false, 
+      "harmony": false, 
+      "surprise": false, 
+      "celebration": false
+    }, 
+    "colors": [], 
+    "a_key": "betl_introduction", 
+    "a_id": 58, 
+    "a_created_ts": "2020-01-26 10:38:21.578996", 
+    "a_project": "basic", 
+    "story_elements": {
+      "kernel": "", 
+      "abstract": "", 
+      "concrete": ""
+    }, 
+    "description": null
+  }, 
+  {
+    "a_created_by": "britain", 
+    "description": null, 
+    "timeline": {
+      "animate_start": null, 
+      "animate_end": null, 
+      "qa": null, 
+      "draft_end": null, 
+      "publish_start": null, 
+      "design_start": null, 
+      "publish_end": null, 
+      "design_end": null, 
+      "draft_start": null, 
+      "draw_end": null, 
+      "draw_start": null, 
+      "writing_start": null, 
+      "writing_end": null
+    }, 
+    "state": "development", 
+    "summary": null, 
+    "design_elements": {
+      "abundance": false, 
+      "play": false, 
+      "magic": false, 
+      "renewal": false, 
+      "freedom": false, 
+      "energy": false, 
+      "transcendence": false, 
+      "harmony": false, 
+      "surprise": false, 
+      "celebration": false
+    }, 
+    "colors": [], 
+    "a_key": "gas_prices", 
+    "a_id": 59, 
+    "a_created_ts": "2020-01-26 16:47:33.318213", 
+    "a_project": "highly_technical_data", 
+    "story_elements": {
+      "kernel": "", 
+      "abstract": "", 
+      "concrete": ""
+    }, 
+    "name": "30 Rock 5.10: Gas Prices for a cool chart:"
+  }, 
+  {
+    "a_created_by": "britain", 
+    "description": null, 
+    "timeline": {
+      "animate_start": null, 
+      "animate_end": null, 
+      "draft_end": null, 
+      "publish_end": null, 
+      "publish_start": null, 
+      "design_start": null, 
+      "qa": null, 
+      "design_end": null, 
+      "draft_start": null, 
+      "draw_end": null, 
+      "draw_start": null, 
+      "writing_start": null, 
+      "writing_end": null
     }, 
     "colors": [], 
     "summary": null, 
@@ -2540,16 +2628,60 @@
       "celebration": false
     }, 
     "state": "development", 
-    "a_key": "betl_introduction", 
-    "a_id": 58, 
-    "a_created_ts": "2020-01-26 10:38:21.578996", 
+    "a_key": "reinforcement_learning", 
+    "a_id": 60, 
+    "a_created_ts": "2020-01-26 22:47:57.189234", 
     "a_project": "basic", 
     "story_elements": {
       "kernel": "", 
       "abstract": "", 
       "concrete": ""
     }, 
-    "description": null
+    "name": "Reinforcement Learning"
+  }, 
+  {
+    "a_created_by": "britain", 
+    "description": null, 
+    "timeline": {
+      "animate_start": null, 
+      "animate_end": null, 
+      "draft_end": null, 
+      "draw_start": null, 
+      "publish_start": null, 
+      "design_start": null, 
+      "qa": null, 
+      "design_end": null, 
+      "draft_start": null, 
+      "draw_end": null, 
+      "publish_end": null, 
+      "writing_start": null, 
+      "writing_end": null
+    }, 
+    "state": "development", 
+    "summary": null, 
+    "design_elements": {
+      "abundance": false, 
+      "play": false, 
+      "magic": false, 
+      "renewal": false, 
+      "freedom": false, 
+      "energy": false, 
+      "transcendence": false, 
+      "harmony": false, 
+      "surprise": false, 
+      "celebration": false
+    }, 
+    "colors": [], 
+    "a_key": "el_gamal", 
+    "a_id": 61, 
+    "a_created_ts": "2020-01-26 22:51:52.977196", 
+    "a_project": "tasteful_mathematics", 
+    "story_elements": {
+      "kernel": "", 
+      "abstract": "", 
+      "concrete": ""
+    }, 
+    "name": "El Gamal"
   }, 
   {
     "description": null, 
@@ -2569,15 +2701,15 @@
       "draw_start": null
     }, 
     "colors": [], 
-    "a_key": "gas_prices", 
-    "a_created_ts": "2020-01-26 16:47:33.318213", 
+    "a_key": "zero_knowledge_proof", 
+    "a_created_ts": "2020-01-26 22:53:20.734757", 
     "story_elements": {
       "kernel": "", 
       "abstract": "", 
       "concrete": ""
     }, 
     "a_created_by": "britain", 
-    "name": "30 Rock 5.10: Gas Prices for a cool chart:", 
+    "name": "Zero Knowledge Proofs", 
     "summary": null, 
     "design_elements": {
       "abundance": false, 
@@ -2592,7 +2724,7 @@
       "celebration": false
     }, 
     "state": "development", 
-    "a_id": 59, 
-    "a_project": "highly_technical_data"
+    "a_id": 62, 
+    "a_project": "basic"
   }
 ]
