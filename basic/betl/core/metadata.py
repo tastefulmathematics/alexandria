@@ -18,6 +18,18 @@ b_hash = {
   "index": True,
 }
 
+b_source = {
+  "name": "b_source",
+  "type_": sa.Text,
+  "index": True,
+}
+
+b_index = {
+  "name": "b_index",
+  "type_": sa.Text,
+  "index": True,
+}
+
 b_created_by = {
   "name": "b_created_by",
   "type_": sa.Text,

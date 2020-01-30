@@ -2,7 +2,7 @@ import sqlalchemy as sa
 from core import facade
 
 
-class DatabaseConnection:
+class DatabaseBinding:
 
     def __init__(self, database_key):
         database_url = facade.get_database_url(database_key)

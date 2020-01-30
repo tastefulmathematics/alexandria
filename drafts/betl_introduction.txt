@@ -14,3 +14,36 @@ Technologies
  - SQLite, Python, Vue, Bulma
  - Focus on general approaches
 Draft-----
+This work is the beginning of a project to develop a basic ETL process.  It will
+begin with the simple task of opening and reading a CSV file, and progress to
+a system which automatically transfers data in a clear and consistent process.
+At the beginning of any project, it is impoortant to be clear on the goals.  To this
+end, we begin by explaining what this project is not.
+1. This is not a basic tutorial, either in abstract ideas like computer science,
+or in specific tools like Python or SQL.  Though a goal was to make the each
+section as accessible and helpful as possible, nothing is ambitious enough to claim
+that it is comprehensive.  In trutu, there are are wide variety of tutorials
+available, many more competent that this could ever be.
+2. This is not an effort to create an efficient ETL process.  Data management is
+an important function for many organizations, and it is well beyond the scope to
+attempt sift through the subject.  The goal is not to opine on popular open source
+projects or new frameworks.
+The idea for this project arose after a few years of software development.  We
+were not classically trained in computer science, and much of our practice with
+coding concentrated on clever algorithms and fun games.  Though engaging at the
+time, there was little applicability to the jobs we eventually found.  Instead of
+clever tricks and fun visuals, the task at hand usually amounted to efficient
+organization of code in order to support feature development and minimize errors.
+Realizing the disconnect, this project was conceived to provide some insight into
+this aspect of software development. As the project progresses, it provides
+opportunity for refactoring, modularizing code, creating testing, and incorporating
+various technologies.  As a bonus, the by product of clever algorithms and fun games
+is a lot of small, poorly organized code snippets.  A minor goal of this project is to
+help organize such things.
+The project is built on a lightweight technology stack.  Python and SQLite form the
+backend with Vuejs and Bulma the front end.  The main motivation of these choices
+was that we find them to be very good for prototyping. We can achieve substantial
+results with minimal setup.  Of course, there may be more appropriate tehcnologies
+for specific use cases; one objective of this project will be to demonstrate such a
+transition, while highlighting choices which will make such transitions easier in the
+future.
