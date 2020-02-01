@@ -1,5 +1,0 @@
-Recall integral formulae from Calculus III
-Do some examples
-Explain change of coordinate formula
-Compare to the differential approach
-Explain general theorem

@@ -1,7 +1,12 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+Compare a line/line with a point removed.
+Group theory applied to topological objects.
+Simply connected spaces and spheres
+Projective space
+The circle
 
 Draft-----

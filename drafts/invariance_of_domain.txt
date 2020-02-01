@@ -1,7 +1,12 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+What is dimension
+Space filling curves
+Homeomorphisms
+Continuous argument and combinatorial argument
+Homology and Homotopy
 
 Draft-----

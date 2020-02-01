@@ -1,5 +1,0 @@
-Basic definition of a graph
-Simple proof of Eulers Formula
-K5 and K33 being non-planar
-Comment on 4 Color Theorem
-Comment on topology

@@ -1,6 +1,0 @@
-Solving polynomial equations
-Recall finite fields and their extensions: comment on solving across all simultaneously
-Move to real polynomials and Newtons method
-Demonstrate Hensels lemma
-Demonstrate how it relates to padic numbers
-Local/Global principle

@@ -1,7 +1,16 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
-
+Complexity of the Epsilon Delta notion
+Definition of topology
+Definition of continuity
+Apply definition of continuity to R
+Further topics in topology
+	Continuity is an interesting concept.  Presented with graphs of functions, most people can agree on which are continuous graphs, and which are not continuous.  However, a precise definition is difficult to come by.  There is a definition, but no one enjoys working with it.
+	Let us work with the definition of continuity.  For functions defined on the real numbers, we define continuity at a point.  For a point x, we say that f is continuous at x if, for given e>0, there exists d>0 such that if .
+	This definition is not ideal.  It works for the real numbers, and might work for more general sets where we can define some notion of distance between points.  This is unacceptable.  Instead, let us find a general, abstract definition that has no obvious connection to the problem at hand.  Yes.  This seems correct.
+	Let X be a set of elements, then we define the powerset to be the set of all subsets. For X, these are the subsets.  If a set has order n, then each subset is just a series of n choices: choose whether each of the n elements is or is not in the subset.  Always choose yes, and we obtain the complete set X.  Always choose no, and we obtain the empty set.  For this reason, the power set is sometimes  denoted 2^X.  Whether X is finite or infinite, the power set is always bigger.  As a rule, we dont discuss set constructions, so this formula will have to suffice.  The goal was to try and simplify things, so we should find some way to
+	
 Draft-----

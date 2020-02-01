@@ -1,7 +1,21 @@
-Concrete: 
-Abstract: 
-Kernel: 
+Concrete:
+Abstract:
+Kernel:
 
 Outline-----
+Generating Functions
+
+Concrete: Fibonacci numbers
+Abstract: Basic operations and approximations
+Kernel: Using series to compute terms, rather than opposite.
+
+Fibonacci sequence with golden rectangles
+Problem description and the closed formula
+Explain a power series
+Explain generating functions with regards to duality
+Compute the generating function
+Compute the closed formula
+Give more statistical examples
+Epilogue: 3n+1
 
 Draft-----

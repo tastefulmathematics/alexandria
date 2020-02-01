@@ -1,6 +1,0 @@
-Introduce the problem
-Quadratic formula and cubic formula and quartic formula
-Field theory
-Field automorphisms
-Discriminant
-Analyze Formulae

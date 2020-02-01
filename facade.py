@@ -50,6 +50,10 @@ def get_logger(name):
     return logging.getLogger(name)
 
 
+def project_list():
+    return [record["a_key"] for record in project_listing]
+
+
 def store_document(document_record):
     global CURRENT_ID
     global document_listing

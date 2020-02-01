@@ -11,3 +11,63 @@ Ease of maintenance and testing
 
 
 Draft-----
+This work covers the strategy pattern.  Though design patterns are most naturally
+found with object oriented programming, there  is no intention to resort to classes
+or design schemantics.  The goal of this work is to develop the intuition behind
+the strategy pattern; to highlight its benefits; and to put it to use in the present
+project.
+Consider the game guess who.  Each player picks a card at random.  That card has
+a number of features on it.  Each player has a board of all possible cards from
+the deck.  Alternating turns, they inquire about each other's card with yes/no
+questions.  Is your card have a red?  No?  Then I can eliminate all the
+red cards.  Is your card a circle?  Yes?  Then I can eliminate all the cards
+that are not circles.  The game proceeds until one player has narrowed the
+possibilities of his/her opponent to a single option.
+As foolish as this game is, the mechanism appears often in algorithms.  Given
+an object, we query features with conditionals like if/else or switch.  What
+makes this approach appealing to coding is that it can be combined into decision
+making in an efficient way.  If all red cards should have the same behavior regardless
+of shape or size, then it feels simple enough to branch off the logic and treat
+those objects the same way.  Given a complete set of feature specific rules,
+all we need do is create a logical decision tree.
+While this approach is intuitive, it fails to use the full potential of the
+machine.  Human beings struggle to distinguish sets larger than 5, so they compensate
+by focusing on feature sets: the total number of available cards is quite large,
+but the number of options in each feature is small enough to comprehend.  A
+computer is not limited in this way.  So long as each object is given a unique
+identifier, a computer can store all the possibilities at once, and recall each
+rapidly[hash maps].  For playing Guess Who?, this approach isn't terribly effective.  For
+creating an algorithm, it is quite powerful.
+The strategy pattern works as follows: for each potential input, determine a unique
+identifier.  Then, use that identifier to choose the appropriate algorithm to
+apply to the input.  For a object orient programming language, this will involve
+using a factory to choose a class, then instantiating an object execute the algorithm.
+For a language with first order methods, this can be simplified to creating a
+hash map where the unique identifier maps to the algorithmic method.  Python offers
+some further effects: so long as each element is hashable, the key to the hashmap
+can be a tuple of identifiers.  Further, if we wish to have an object for contextual
+properties, we can always pass it in as an argument.  Bonus points if it is the first
+argument, as that would be the signature of an instance method anyway.
+The strategy pattern is not intuitive; if it were, it would come more naturally and there
+would be no need to create work about it.  At first glance, it isn't terribly efficient:
+even with the simple example above, branching on feature based rules is requires fewer
+decisions than the strategy patter; as the features grow, the input possibilities will
+grow rapidly, making the difference even more glaring.
+Despite flaws in the initial assessment, the strategy pattern can be a very good
+choice.  First, though the assumptions we have made are similar to those in a design
+document, they are far from how things behave in the real world.  Colors aren't always
+obvious, shapes may depend on context, and size doesn't always matter.  And as with
+all aspects in life, every rule will come with two exceptions.  Handling these rough
+contours will quickly complicate a decision tree algorithm.  In contrast, the strategy pattern
+is unaffected.
+A second advantage of the strategy pattern is that, given an input, it is obvious how
+things will proceed.  While we often make efforts to find patterns and create rules,
+we should always be able to answer the question: given this, how should things proceed.
+When designing, debugging, or troubleshooting, we often find ourselves with a simple algorithm
+once the input has been determined.
+A third advantage of the strategy pattern is in maintenance.  If, in the future,
+new potential inputs are created, the strategy approach merely requires new
+strategies to be created; none of the other code is affected. In contrast, a change to
+a decision tree could potential affect all the other potential inputs.  Even in the
+severe situation where an entire new rule is introduced, the strategy pattern need only
+address the affected strategies.  

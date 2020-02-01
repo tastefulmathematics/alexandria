@@ -9,4 +9,165 @@ skill, tactics, strategy, logistics
 unit, functional, integrated, end 2 end
 each test for a branch logic
 
+
 Draft-----
+A personal anecdote: I am not classically trained in computer science.  As such,
+my first exposure to automated testing was magical: they were sold as magical
+devices that could run my code automatically, identify any and all flaws, and
+warn for any danger.  They even had the power to improve the writing of code itself.
+
+Naturally, I was excited when a manager assigned me to write my first test.  The
+framework was learned, the fixtures were configured, and the development was
+merged.  And it was immediately clear that it was terrible.  It was routinely broken,
+wasn't safe to run in most environments, and was inscrutable to anyone not fluent
+in the codebase.
+
+Despite the shortcomings, the testing culture deemed existence a success, and the
+manager never mentioned it again. The consequence of it frequently failing was
+ that the failures were ignored.  It probably got turned off, as it would be more
+annoyance than anything else.
+
+Two lessons emerged from this experience.  First, though tests may provide tremendous
+value to code, they may also provide nothing at all.  Writing good tests requires
+experience and skill.  Second, enthusiasm for testing is insufficient for creating
+well supported code.  Having tests is not what is important; having good tests is.
+
+Automated testing has many different avenues to discuss.  We leave the discussion
+of specific techniques, like patching and dependency injection, for the next work.
+We also avoid focusing too much on nomenclature, preferring to define some basic
+terms against a simple analogy. We do not dwell on the difference between a test,
+a test case, and a test suite.  Finally, we offer no guidance on test runners or
+test frameworks.  Ultimately, these are just tools for executing tests.  Choose your
+tool and use it.  IF it is not effective, choose a different tool.
+
+The purpose of this work is to develop and intuition and understanding for test
+writing.  If all code is meant to have accompanying tests, that is a lot of extra
+code to write.  Without an intutive grasp of what you want to accomplish it will
+quickly become tedious.  It will further serve to help broaden the understanding
+of how testing works.  Should modeling algorithms be tested?  What about the
+algorithm calculating pi?
+----
+As with so many things, we begin with the simple foundation: people over process.
+When tasked with writing a test, simply having green equal good, red equal bad is
+inadequate.  Rather, it is important to consider what would make you comfortable.
+A month from now, what needs to be done in order to be comfortable with a successful
+test.  What needs to be done to justify stopping work to investigate a failure.
+a team member asks whether code is working, would you feel comfortable asserting
+Yes based entirely on a green light?  The purpose of testing is to evaluate the
+functionality of the code.  When considering what to test, addressing this concern
+should be the primary objective.
+----
+It is sometimes observed that writing tests encourages good code.  For legacy code,
+this observation is unfortunate.  If the existing code is bad, then it would follow
+that test would be difficult to write, and likely ineffective.  Many flaky tests
+are the product of attempting to provide test coverage for poor code.
+
+Fortunately, this code is new, thus can benefit from test writing.  However, this
+provides a different dilemma: if one were to write enough tested code, would the
+"good" patterns that test writing encourages be learned?  And if those patterns
+are indeed learned, why not teach the patterns without also necessitating the tests?
+
+Of course test coverage has clear benefits beyond code practice.  But the point is
+valid: if test writing encourages good coding habits, what are those habits?  what
+follows are my own thoughts on what these habits are.
+
+We begin with an analogy to a large group of people completing a task.  At the lowest
+level, we speak of the SKILL of an individual unit.  Whatever tasks a single unit
+must perform, it is expected that the performance is satisfactory for a wide range
+of variables and environments.  When a small number of units form a group, we speak
+of the TACTICS that it employs to achieve a task.  Similar to the skills of an individual
+unit, tactics are expected to be executed regardless of variables and environments.
+If we consider a large group of units, then we speak of STRATEGY.  The units man
+form small tactical groups, but strategy is how the full group moves forward to achieve
+the goal.  Given the amount of unknown when dealing with a large group of units,
+strategies have a looser tolerance for success.  This is in part due to the fact
+that the expectations of skills and tactics are so high: the strategy is then
+a matter of execution.  Finally, the entire scenario will require a large number
+of resources to be effective.  We speak of LOGISTICS when talking about how to
+get the correct resources to the correct place at the correct time.  Though
+absolutely necessary to completing the task, it may feel very independent from
+the other levels of organization.  The expectation is so long as the resources
+are logistically delivered, the consistent performance of the strategy, tactics
+and skill will see the task through.
+
+With this contrived example, we move to testable code.  At the basic level, we
+have UNIT TESTS.  So called because they test the smallest units of code, these
+should test a wide range of conditions and configurations.  Further, they are
+extremely demanding: because the higher categories depend on unit tests, failure
+cannot be accepted, and the issue must be fixed.
+
+Above unit tests are FUNCTIONAL tests.  Whereas units of code are distiguished
+by being indivisible, functional code is the level at which the code begins to
+do complex things.  Like unit tests, functional tests should cover the different
+possibilities of the code.  The caveat is that they should avoid what is covered
+by the unit tests themselves.  Just as tactical planning assumes the skill of
+the participants, functional testing assumes the units perform correctly.
+
+To achieve this, a simple rule of thumb is as follows: create functional tests
+for each piece of conditional logic within the code.  Is there a switch statement?
+Create a test for each possibility.  Is there a loop?  The tests should cover
+an empty loop as well as multiple iterations.  Does the code handle exceptions?
+Then there should be test cases to throw them as well.  This rule of thumb
+further sheds light on earlier observations.  Legacy code will have conditional
+logic that cannot be refactored; the more convolved the branching, the more
+difficult it is to identify all the possible test cases.  In contrast, the
+difficulty of writing tests for convoluted code will lead new development to
+find more straightforward logic and organization.  Modular functions will be used
+in lieu of the difficulty of testing large portions of convoluted logic.  Eventually,
+the code magically becomes better.
+
+Above functional tests we speak of integration tests.  Functional code is integrated
+together and checked to see that it executes as expected.  As functional code Should
+avoid duplicating unit tests, integration tests should not cover what functional tests
+already have.  It is by design this analogy has integration tests compare to strategy,
+as the strategy pattern works well for this level of code.  Recall that the strategy
+pattern minimizes as much conditional logic as possible.  Applying the previous
+rule of thumb to code following the strategy pattern, it would require a minimal
+number of tests, trusting that the execution of the functional and unit code will
+be flawless.
+
+The final level of tests are End 2 End tests.  These attempt to assess the entire
+path of the code from one end (the beginning) to the other end (the end).  With the
+three lower levels addressed, all that remains is to demonstrate that they work together.
+Test cases no longer address all the different scenarios that may come up.  The goal
+is to show the code works in the most basic of circumstances.  We trust the lower
+tests have accounted for all the possible scenarios.
+----
+It should be noted that the above is for automated testing.  Manual testing may be
+very productive, and by its very nature, it involves running a wide range of scenarios
+at the highest level of code.  For automated testing, if a scenario is concerning,
+it usually can be decomposed into a collection of smaller concerns which can be addressed
+at a lower level.
+
+This notion of decomposing concerns can also be applied to addressing bugs.  If
+a malfunction is reported, it indicates the tests missed some coverage and new tests should
+be added.  If the logic at the highest level minimized, the issue is likely found
+deeper in the code and may be addressed on a lower level.
+----
+What preceded has largely ignored computational code.  How would one test a
+data model algorithm?  What about a function to compute the square root?  Or compute pi?
+
+The first example is well outside the scope of this discussion.  It would seem testing
+and validation is still an open question for data modeling, and we have no cents to
+contribute.
+
+When computing a known value, like square root or of pi, an alternate approach is
+available.  One can simply validate the computation against a known set of
+acceptable answers.  For square root, this would mean entering various numbers
+and asserting the correct response is given.  For computing pi, it would mean
+having pi stored to a certain number of digits, and then comparing with what the
+algorithm presents.
+
+The naive objection is that this is silly.  What is the point of hard coding a
+value if the point of the algorithm is to compute that very value.  A more
+nuanced objection is that this approach could easily miss obvious concerns: if
+a square root function were tested on the numbers 0, 1, 4, 9 and 16, there is no
+coverage for how the algorithm handles returning a decimal in response to an integer.
+
+Another option would be to investigate how the algorithm is constructed and create
+tests accordingly.  The above discussion would work well with this approach.  The
+objection is that computational algorithms should be black boxes, and these tests
+depend on the internal workings.  The logic of how to move data around can be quite
+complex; the code should execute this logic and the testing should assert that it is
+executing consistently.  But pi is absolute, regardless of what theoretical approach
+an algorithm employs.
