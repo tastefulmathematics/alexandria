@@ -1,4 +1,5 @@
 import logging
+import inspect
 import json
 import os
 ROOT = os.path.join(os.getcwd(), "..")
@@ -30,7 +31,24 @@ def put(key, value):
     global _GLOBAL_CACHE
     _GLOBAL_CACHE[key] = value
 
-def get_database_url(database_key):
-    pass
+def get_database_url(database_key, **credentials):
+    database_server_key = get("database_server_key", database_key)
+    database_server_url = get("database_server_url", database_server_key)
+
+    _url = sa.make_url(database_server_url)
+    _url.database = get("database_name", database_key) or database_key
+
+    _url.user = credentials.get("user") or _url.user
+    _url.password = credentials.get("password") or _url.password
+
+    return str(_url), repr(_url)
+
+def function_annotation(**anotation):
+    def decorator(user_function):
+        def wrapper(*a, **k):
+            return user_function(*a, **k)
+        wrapper.annotation = function_annotation
+        wrapper.name = user_function.__name__
+        wrapper.signature = inspect.signature()s
 
 logger = get_logger(__name___)
