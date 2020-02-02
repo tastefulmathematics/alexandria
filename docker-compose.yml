@@ -11,9 +11,14 @@ services:
     restart: always
     environment:
       POSTGRES_PASSWORD: example
+<<<<<<< HEAD
 
   adminer:
     image: adminer
     restart: always
     ports:
       - 8080:8080
+=======
+    ports:
+      - "5432:5432"
+>>>>>>> a50f158f0312457086a78f7a7b07214765a73510
