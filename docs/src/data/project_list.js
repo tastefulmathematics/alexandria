@@ -9,7 +9,7 @@ export const completeProjectList = [
     component: "document-viewer",
     created_ts: "20200118",
     status: "primary",
-    document_list: tasteful_mathematics_document_list,
+    documentList: tasteful_mathematics_document_list,
     directory: "./../tasteful_mathematics/"
   },
   {

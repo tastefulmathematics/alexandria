@@ -8,7 +8,7 @@ const view = `
           <i class="fas fa-search" aria-hidden="true"></i>
         </span>
       </div>
-      <div class="tile" v-for="document in project.document_list">
+      <div class="tile" v-for="document in project.documentList">
         <div class="tile is-parent">
           <a class="tile is-child box" @click="currentDocument = document">
           <p class="card-header-title">
@@ -30,8 +30,7 @@ const view = `
       </div>
       <div class="tile is-parent">
         <article class="tile is-child box">
-          <p class="title">Eight</p>
-          <p class="subtitle">Subtitle</p>
+          <iframe v-if="documentLocation" :src="documentLocation"></iframe>
         </article>
       </div>
     </div>
@@ -44,7 +43,18 @@ let model = {
   props: ["project"],
   data: function () {
     return {
-      currentDocument: this.project[0] || {},
+      currentDocument: this.project.documentList[0] || {location: false},
+      // documentLocation: "https://www.w3schools.com"
+    }
+  },
+  computed: {
+    documentLocation: function() {
+      if (false){
+        return false;
+      }
+      else{
+        return "../../documents/".concat(this.currentDocument.location);
+      }
     }
   },
   methods: {
