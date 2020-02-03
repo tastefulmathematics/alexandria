@@ -53,7 +53,7 @@ let model = {
         return false;
       }
       else{
-        return "../../documents/".concat(this.currentDocument.location);
+        return "./documents/".concat(this.currentDocument.location);
       }
     }
   },
