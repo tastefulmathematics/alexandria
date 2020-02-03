@@ -1,6 +1,7 @@
 import { tasteful_mathematics_document_list } from './tasteful_mathematics.js';
 import { basic_document_list } from './basic.js';
 import { highly_technical_data_document_list } from './highly_technical_data.js';
+import { completeDocumentList }from './document_listing.js';
 
 export const completeProjectList = [
   {
@@ -9,7 +10,7 @@ export const completeProjectList = [
     component: "document-viewer",
     created_ts: "20200118",
     status: "primary",
-    documentList: tasteful_mathematics_document_list,
+    documentList: completeDocumentList.filter(document => document.project == 'tastefulmathematics'),
     directory: "./../tasteful_mathematics/"
   },
   {
@@ -18,7 +19,7 @@ export const completeProjectList = [
     component: "document-viewer",
     created_ts: "20200118",
     status: "primary",
-    document_list: highly_technical_data_document_list,
+    documentList: completeDocumentList.filter(document => document.project == 'highlytechnicaldata'),
     directory: "./../highly_technical_data/"
   },
   {
@@ -27,7 +28,7 @@ export const completeProjectList = [
     component: "document-viewer",
     created_ts: "20200118",
     status: "primary",
-    document_list: basic_document_list,
+    documentList: completeDocumentList.filter(document => document.project == 'basic'),
     directory: "./../basic/"
   },
   {
@@ -36,6 +37,6 @@ export const completeProjectList = [
     component: "rote-learner",
     created_ts: "20200118",
     status: "primary",
-    document_list: tasteful_mathematics_document_list,
+    documentList: completeDocumentList.filter(document => document.project == 'rotelearning'),
   },
 ];
